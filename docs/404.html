@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{site.title}}</title>
+    <title>My 1st title</title>
     <link rel="stylesheet" href="../css/site.css">
 </head>
 <body>
@@ -10,7 +10,7 @@
         <header class="site-header">
 
             <h1 class="site-title">
-                <a href="/">{{site.title}}</a>
+                <a href="/">My 1st title</a>
             </h1>
         </header>
 
@@ -19,22 +19,32 @@
 
             <nav>
                 <ul>
-                    {% for page in site.pages %}
-                    {% if page.title %}
+                    
+                    
+                    
+                    
                     <li>
-                        <a href="{{page.url}}">{{page.title}}</a>
+                        <a href="/about/">About</a>
                     </li>
-                    {% endif %}
-                    {% endfor %}
+                    
+                    
+                    
+                    <li>
+                        <a href="/">hello</a>
+                    </li>
+                    
+                    
+                    
+                    
                 </ul>
             </nav>
 
 
-            {% if page.title %}
-            <h1>{{page.title}}</h1>
-            {% endif %}
+            
 
-            {{content}}
+              <p><strong>Page not found :(</strong></p>
+  <p>The requested page could not be found.</p>
+
 
         </main>
 
