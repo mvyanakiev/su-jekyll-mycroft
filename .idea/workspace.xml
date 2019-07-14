@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="16b1a581-0869-479c-9a86-686de0828d0a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/navigation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_layouts/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/2019/07/10/welcome-to-jekyll.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/2019/07/10/welcome-to-jekyll.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/2019/08/12/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/2019/08/12/demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/404.html" afterDir="false" />
@@ -23,20 +23,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+            <state relative-caret-position="510">
+              <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/navigation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="50" selection-start-column="50" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -73,8 +82,9 @@
         <option value="$PROJECT_DIR$/css/layout.css" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/blog.html" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/_includes/navigation.html" />
         <option value="$PROJECT_DIR$/_layouts/main.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -100,11 +110,6 @@
             <path>
               <item name="mycroft" type="b2602c69:ProjectViewProjectNode" />
               <item name="mycroft" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mycroft" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mycroft" type="462c0819:PsiDirectoryNode" />
-              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mycroft" type="b2602c69:ProjectViewProjectNode" />
@@ -162,7 +167,7 @@
       <option name="presentableId" value="Default" />
       <updated>1562771110063</updated>
       <workItem from="1562771111285" duration="9476000" />
-      <workItem from="1563098225442" duration="10494000" />
+      <workItem from="1563098225442" duration="11782000" />
     </task>
     <task id="LOCAL-00001" summary="test deploy">
       <created>1563099284648</created>
@@ -192,11 +197,25 @@
       <option name="project" value="LOCAL" />
       <updated>1563122686058</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="shit fixed">
+      <created>1563125542911</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563125542911</updated>
+    </task>
+    <task id="LOCAL-00006" summary="includes added">
+      <created>1563125795756</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1563125795756</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19970000" />
+    <option name="totallyTimeSpent" value="21258000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="23" width="1416" height="874" extended-state="0" />
@@ -229,7 +248,9 @@
     <MESSAGE value="stuff added" />
     <MESSAGE value="base url changed" />
     <MESSAGE value="css added" />
-    <option name="LAST_COMMIT_MESSAGE" value="css added" />
+    <MESSAGE value="shit fixed" />
+    <MESSAGE value="includes added" />
+    <option name="LAST_COMMIT_MESSAGE" value="includes added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Gemfile">
@@ -348,10 +369,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/navigation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50" selection-start-column="50" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -360,13 +395,6 @@
             <caret line="25" selection-start-line="25" selection-end-line="25" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
         </state>
       </provider>
     </entry>
