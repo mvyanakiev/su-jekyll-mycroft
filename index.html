@@ -4,6 +4,7 @@
 
 layout: main
 title: hello
+permalink: /su-jekyll-mycroft//index.html
 ---
 
 <section>
@@ -17,7 +18,7 @@ title: hello
         <ul>
             {% for post in site.posts %}
             <li>
-                <a href="{{ post.url }}">{{ post.title }}</a>
+                <a href="{{post.url}}">{{post.title}}</a>
             </li>
             {% endfor %}
         </ul>
