@@ -1,0 +1,18 @@
+html{
+    background: var( --html-background-color);
+}
+
+.site {
+    max-width: var(--layout-main-width);
+    margin: 0 auto;
+    padding: 2em;
+    background: var(--site-background-color);
+}
+
+.site-header{
+    display: flex;
+}
+
+.site-header nav {
+    margin-left: auto;
+}
