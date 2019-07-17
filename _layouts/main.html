@@ -3,30 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>{{site.title}}</title>
-    <link href="{{site.baseurl}}/css/site.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/site.css">
+    <script src="{{ site.baseurl }}/scripts/site.js"></script>
+    <scrip></scrip>
 </head>
 <body>
     <div class="site">
-        <header class="site-header">
 
+        <header class="site-header">
             <h1 class="site-title">
                 <a href="{{site.baseurl}}/">{{site.title}}</a>
             </h1>
 
             {% include navigation.html location="header" %}
-
-
         </header>
 
         <main class="site-main">
-
-
             {% if page.title %}
             <h1>{{page.title}}</h1>
             {% endif %}
 
             {{content}}
-
         </main>
 
         <aside class="site-sidebar">
@@ -34,7 +31,8 @@
 
         <footer class="site-footer">
             <p>All rights reserved &copy 2019</p>
-            {% include navigation.html location="footer" %}
+<!--            {% include navigation.html location="footer" %}-->
+            <script> </script>
         </footer>
 
     </div>
