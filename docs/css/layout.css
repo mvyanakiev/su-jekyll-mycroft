@@ -1,0 +1,43 @@
+html{
+    background: var( --html-background-color);
+}
+
+.site {
+    max-width: var(--layout-main-width);
+    margin: 0 auto;
+    padding: 2em;
+    background: var(--site-background-color);
+}
+
+.site-header{
+    display: flex;
+}
+
+
+.site-header nav {
+    margin-left: auto;
+}
+
+nav ul{
+    list-style: none outside;
+    display: flex;
+    margin-left: auto;
+}
+
+nav ul li {
+    margin-left: 1em;
+}
+
+nav ul li a {
+    background: #cccccc;
+    color: #000;
+    border-radius: 0.5em;
+    text-decoration: none;
+    padding: 0.6em 1em;
+}
+
+
+nav ul li a:hover{
+    background: #000000;
+    color: #ffffff;
+}
