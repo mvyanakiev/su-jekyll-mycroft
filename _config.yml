@@ -17,8 +17,11 @@ title: My Croft
 email: qwerty@example.com
 description: Test description.
 destination: docs
+
+#baseurl: "" # the subpath of your site, e.g. /blog
 baseurl: "/su-jekyll-mycroft" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
 twitter_username: jekyllrb
 github_username:  jekyll
 
@@ -40,3 +43,7 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - docs
+  - _assets
+  - gulpfile.js
+  - package.json
+  - package-lock.json
