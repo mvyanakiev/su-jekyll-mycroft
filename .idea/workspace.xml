@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16b1a581-0869-479c-9a86-686de0828d0a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_assets/css/tipography.css" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/css/tipography.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/2019/07/10/welcome-to-jekyll.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/2019/07/10/welcome-to-jekyll.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/2019/08/12/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/2019/08/12/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/contacts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/contacts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/tipography.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/tipography.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-    </list>
+    <list default="true" id="16b1a581-0869-479c-9a86-686de0828d0a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -144,11 +130,6 @@
             <path>
               <item name="mycroft" type="b2602c69:ProjectViewProjectNode" />
               <item name="mycroft" type="462c0819:PsiDirectoryNode" />
-              <item name="_assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mycroft" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mycroft" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -213,7 +194,7 @@
       <workItem from="1563537837522" duration="822000" />
       <workItem from="1563547916881" duration="4180000" />
       <workItem from="1563644432736" duration="1790000" />
-      <workItem from="1563968417803" duration="746000" />
+      <workItem from="1563968417803" duration="980000" />
     </task>
     <task id="LOCAL-00001" summary="test deploy">
       <created>1563099284648</created>
@@ -324,11 +305,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32694000" />
+    <option name="totallyTimeSpent" value="32928000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="23" width="1416" height="874" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24946237" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
