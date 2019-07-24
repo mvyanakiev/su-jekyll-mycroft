@@ -45,7 +45,7 @@ body, table, form, select, option, input, textarea {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "PT Sans", Helvetica, Verdana, sans-serif;
+    font-family: Times, "Times New Roman", serif;
     line-height: 1.1;
     margin: 0 0 0.5em 0;
     padding: 0;
