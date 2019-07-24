@@ -18,9 +18,16 @@ gulp.task("scss", function() {
 });
 
 // Jekyll
-gulp.task("jekyll", function() {
+gulp.task("jekylldev", function() {
     return cp.spawn("bundle", ["exec", "jekyll", "build"], { stdio: "inherit", shell: true });
 });
+
+
+// Jekyll
+gulp.task("jekyllprod", function() {
+    return cp.spawn("bundle", ["exec", "jekyll", "build --baseurl /su-jekyll-mycroft"], { stdio: "inherit", shell: true });
+});
+
 
 gulp.task("watch", function() {
 
@@ -40,13 +47,16 @@ gulp.task("watch", function() {
             "./_layouts/*.html",
             "./_posts/**/*.*"
         ]
-    ).on('change', gulp.series('jekyll', 'scss') );
+    ).on('change', gulp.series('jekylldev', 'scss') );
 
     gulp.watch( 'docs/**/*.html' ).on('change', browserSync.reload );
     gulp.watch( 'docs/**/*.js' ).on('change', browserSync.reload );
 
 });
 
-gulp.task("deploy", gulp.series('jekyll', 'scss'));
+gulp.task("deploy", gulp.series('jekyllprod', 'scss'));
 
-gulp.task("default", gulp.series('jekyll', 'scss', 'watch'));
+gulp.task("default", gulp.series('jekylldev', 'scss', 'watch'));
+
+//local -> gulp
+// for deploy -> gulp deploy
