@@ -2,16 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16b1a581-0869-479c-9a86-686de0828d0a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_assets/scss/site.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_assets/css/animation.css" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_animation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_assets/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_assets/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_assets/css/tipography.css" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_tipography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_assets/css/varaibles.css" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_varaibles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/2019/07/10/welcome-to-jekyll.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/2019/07/10/welcome-to-jekyll.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/2019/08/12/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/2019/08/12/demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/about/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/contacts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/contacts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/animation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/tipography.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/varaibles.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fontawesome/js/all.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/fontawesome/js/all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fontawesome/js/all.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/fontawesome/js/all.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fontawesome/js/fontawesome.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/fontawesome/js/fontawesome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fontawesome/js/fontawesome.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/fontawesome/js/fontawesome.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fontawesome/metadata/icons.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/fontawesome/metadata/icons.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fontawesome/js/all.js" beforeDir="false" afterPath="$PROJECT_DIR$/fontawesome/js/all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fontawesome/js/all.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/fontawesome/js/all.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fontawesome/js/fontawesome.js" beforeDir="false" afterPath="$PROJECT_DIR$/fontawesome/js/fontawesome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fontawesome/js/fontawesome.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/fontawesome/js/fontawesome.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fontawesome/metadata/icons.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fontawesome/metadata/icons.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,10 +47,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/_assets/scss/_layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -73,10 +95,15 @@
         <option value="$PROJECT_DIR$/_layouts/main.html" />
         <option value="$PROJECT_DIR$/_assets/css/tipography.css" />
         <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/_assets/css/responsive.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/_assets/scss/site.css" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/docs/css/varaibles.css" />
+        <option value="$PROJECT_DIR$/_assets/scss/varaibles.scss" />
+        <option value="$PROJECT_DIR$/_assets/scss/_varaibles.scss" />
+        <option value="$PROJECT_DIR$/_assets/scss/_layout.scss" />
       </list>
     </option>
   </component>
@@ -113,7 +140,7 @@
               <item name="mycroft" type="b2602c69:ProjectViewProjectNode" />
               <item name="mycroft" type="462c0819:PsiDirectoryNode" />
               <item name="_assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -182,7 +209,7 @@
       <workItem from="1563977682565" duration="77000" />
       <workItem from="1564144009256" duration="26000" />
       <workItem from="1564225285201" duration="639000" />
-      <workItem from="1564815162357" duration="167000" />
+      <workItem from="1564815162357" duration="2439000" />
     </task>
     <task id="LOCAL-00001" summary="test deploy">
       <created>1563099284648</created>
@@ -289,11 +316,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563644511693</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="video url changed">
+      <created>1564816724602</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1564816724602</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34940000" />
+    <option name="totallyTimeSpent" value="37212000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="23" width="1416" height="874" extended-state="0" />
@@ -303,7 +337,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32992327" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.25703326" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -335,7 +369,8 @@
     <MESSAGE value="blog link fixed" />
     <MESSAGE value="gulp" />
     <MESSAGE value="gulp new" />
-    <option name="LAST_COMMIT_MESSAGE" value="gulp new" />
+    <MESSAGE value="video url changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="video url changed" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Gemfile">
@@ -415,13 +450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_assets/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -429,14 +457,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_assets/css/varaibles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_assets/css/tipography.css">
+    <entry file="file://$PROJECT_DIR$/_assets/scss/_tipography.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
           <caret line="65" selection-start-line="65" selection-end-line="65" />
@@ -465,13 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -480,17 +494,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_assets/css/responsive.css" />
-    <entry file="file://$PROJECT_DIR$/_assets/css/animation.css">
+    <entry file="file://$PROJECT_DIR$/_assets/scss/_animation.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_assets/css/site.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -505,7 +512,48 @@
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/css/varaibles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/css/site.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_assets/scss/site.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_assets/scss/_varaibles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_assets/scss/_layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>

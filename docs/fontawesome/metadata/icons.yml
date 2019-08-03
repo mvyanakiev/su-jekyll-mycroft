@@ -6770,7 +6770,7 @@ file-code:
   label: Code File
   search:
     terms:
-      - css
+      - scss
       - development
       - document
       - html

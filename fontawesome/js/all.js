@@ -2141,7 +2141,7 @@
   }
 
   if (DOCUMENT && typeof DOCUMENT.querySelector === 'function') {
-    var attrs = [['data-family-prefix', 'familyPrefix'], ['data-replacement-class', 'replacementClass'], ['data-auto-replace-svg', 'autoReplaceSvg'], ['data-auto-add-css', 'autoAddCss'], ['data-auto-a11y', 'autoA11y'], ['data-search-pseudo-elements', 'searchPseudoElements'], ['data-observe-mutations', 'observeMutations'], ['data-mutate-approach', 'mutateApproach'], ['data-keep-original-source', 'keepOriginalSource'], ['data-measure-performance', 'measurePerformance'], ['data-show-missing-icons', 'showMissingIcons']];
+    var attrs = [['data-family-prefix', 'familyPrefix'], ['data-replacement-class', 'replacementClass'], ['data-auto-replace-svg', 'autoReplaceSvg'], ['data-auto-add-scss', 'autoAddCss'], ['data-auto-a11y', 'autoA11y'], ['data-search-pseudo-elements', 'searchPseudoElements'], ['data-observe-mutations', 'observeMutations'], ['data-mutate-approach', 'mutateApproach'], ['data-keep-original-source', 'keepOriginalSource'], ['data-measure-performance', 'measurePerformance'], ['data-show-missing-icons', 'showMissingIcons']];
     attrs.forEach(function (_ref) {
       var _ref2 = _slicedToArray(_ref, 2),
           attr = _ref2[0],
@@ -2524,7 +2524,7 @@
     }
 
     var style = DOCUMENT.createElement('style');
-    style.setAttribute('type', 'text/css');
+    style.setAttribute('type', 'text/scss');
     style.innerHTML = css;
     var headChildren = DOCUMENT.head.childNodes;
     var beforeChild = null;
