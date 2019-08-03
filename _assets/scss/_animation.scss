@@ -4,20 +4,22 @@ nav ul li a {
     color var(--transition-speed-buttons) ease-in-out;
 }
 
-
-.site-title:hover {
-    opacity: 1;
+body.loaded .site-title {
+    opacity: 0.3;
+    transform: translateX(0);
 }
 
 .site-title {
     transform: translateX(-2em);
     opacity: 0;
     transition-delay: 1s;
-    transition: opacity var(--transition-speed-buttons) ease-in-out,
-    transform var(--transition-speed-buttons) ease-in-out;
+    transition: opacity 1s ease-in-out, transform var(--transition-speed-buttons) ease-in-out;
+
+    &-title:hover {
+        opacity: 1;
+    }
 }
 
-body.loaded .site-title {
-    opacity: 0.5;
-    transform: translateX(0);
-}
+//.site-title:hover {
+//    opacity: 1;
+//}
